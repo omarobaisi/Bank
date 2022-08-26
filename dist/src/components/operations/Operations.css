@@ -1,0 +1,78 @@
+.operation {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.input-header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.amount-input, .vendor-input, .category-input {
+    margin: 0 auto;
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border: 0;
+    padding: 0 10px;
+    border: 2px solid black;
+    transition: 200ms ease-in-out;
+}
+
+.amount-input:focus, .vendor-input:focus, .category-input:focus {
+    border: 2px solid #154EA5;
+}
+
+.vendor-input {
+    margin: 20px auto;
+}
+
+.amount-input {
+    width: 30%;
+}
+
+.deposit-button {
+    margin: 20px auto;
+    background-color: #154EA5;
+    border: 2px solid white;
+    color: white;
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    transition: 200ms ease-in-out;
+}
+
+.deposit-button:hover {
+    background-color: white;
+    border: 2px solid #154EA5;
+    color: #154EA5;
+}
+
+.withdraw-button {
+    margin: 0 auto;
+    background-color: white;
+    color: #154EA5;
+    border: 0;
+    height: 30px;
+    font-size: 20px;
+    transition: 200ms ease-in-out;
+}
+
+.withdraw-button:hover {
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .amount-input {
+        width: 60%;
+    }
+
+    .deposit-button {
+        width: 60%;
+    }
+}
