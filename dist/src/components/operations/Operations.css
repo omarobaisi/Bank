@@ -13,7 +13,7 @@
     font-size: 30px;
 }
 
-.amount-input, .vendor-input, .category-input {
+.amount-input, .vendor-input, .category-input, .date-input {
     margin: 0 auto;
     height: 40px;
     width: 90%;
@@ -65,6 +65,10 @@
 
 .withdraw-button:hover {
     color: black;
+}
+
+.date-input {
+    margin-top: 10px;
 }
 
 @media (max-width: 700px) {
