@@ -1,14 +1,15 @@
 .flash-parent {
     position: relative;
-    width: 70%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     text-align: center;
 }
 
 .flash {
     background-color: red;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 70%;
     height: 40px;
     margin-top: 10px;
 }
